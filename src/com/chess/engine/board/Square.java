@@ -1,12 +1,32 @@
 package com.chess.engine.board;
 
 import com.chess.engine.pieces.Piece;
+import com.google.common.collect.ImmutableMap;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public abstract class Square {
 
-    int squareCord;
+    protected final int squareCord;
 
-    Square(int squareCord){
+    private static final Map<Integer, EmptySquare> EMPTY_SQUARES = createAllPossibleEmptySquares();
+
+    private static Map<Integer,EmptySquare> createAllPossibleEmptySquares() {
+        final Map<Integer,EmptySquare> emptySquareMap = new HashMap<>();
+
+        for(int i = 0; i < 64; i++){
+            emptySquareMap.put(i, new EmptySquare(i));
+        }
+
+        return ImmutableMap.copyOf(emptySquareMap);
+    }
+
+    public static Square createSquare(final int squareCord, final Piece piece){
+        return piece != null ? new OccupiedSquare(squareCord, piece) : EMPTY_SQUARES.get(squareCord);
+    }
+
+    private Square(int squareCord){
         this.squareCord = squareCord;
     }
 
@@ -16,7 +36,7 @@ public abstract class Square {
 
     public static final class EmptySquare extends Square{
 
-        EmptySquare(int cord){
+        EmptySquare(final int cord){
             super(cord);
         }
 
@@ -33,7 +53,7 @@ public abstract class Square {
 
     public static final class OccupiedSquare extends Square{
 
-        Piece pieceOnSquare;
+        private final Piece pieceOnSquare;
 
         OccupiedSquare(int squareCord, Piece pieceOnSquare){
             super(squareCord);
