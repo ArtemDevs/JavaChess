@@ -15,7 +15,7 @@ public abstract class Square {
     private static Map<Integer,EmptySquare> createAllPossibleEmptySquares() {
         final Map<Integer,EmptySquare> emptySquareMap = new HashMap<>();
 
-        for(int i = 0; i < 64; i++){
+        for(int i = 0; i < BoardUtils.SQUARE_COUNT; i++){
             emptySquareMap.put(i, new EmptySquare(i));
         }
 
@@ -26,7 +26,7 @@ public abstract class Square {
         return piece != null ? new OccupiedSquare(squareCord, piece) : EMPTY_SQUARE_CACHE.get(squareCord);
     }
 
-    private Square(int squareCord){
+    private Square(final int squareCord){
         this.squareCord = squareCord;
     }
 
@@ -58,7 +58,7 @@ public abstract class Square {
 
         private final Piece pieceOnSquare;
 
-        private OccupiedSquare(int squareCord, Piece pieceOnSquare){
+        private OccupiedSquare(int squareCord, final Piece pieceOnSquare){
             super(squareCord);
             this.pieceOnSquare = pieceOnSquare;
         }

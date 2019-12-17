@@ -29,9 +29,9 @@ public class Knight extends Piece{
 
             if(BoardUtils.isValidSquareCord(candidateDestinationCord)){
                 if(isFirstColumnEdgeCase(this.piecePosition, currentCandidate) ||
-                        isFirstColumnEdgeCase(this.piecePosition, currentCandidate) ||
-                        isFirstColumnEdgeCase(this.piecePosition, currentCandidate) ||
-                        isFirstColumnEdgeCase(this.piecePosition, currentCandidate)){
+                        isSecondColumnEdgeCase(this.piecePosition, currentCandidate) ||
+                        isSeventhColumnEdgeCase(this.piecePosition, currentCandidate) ||
+                        isEighthColumnEdgeCase(this.piecePosition, currentCandidate)){
                     continue;
                 }
 
@@ -52,21 +52,22 @@ public class Knight extends Piece{
         return ImmutableList.copyOf(legalMoves);
     }
 
+    //Edge cases for the Knight, for when near the board edge and the offset will be incorrect
     public static boolean isFirstColumnEdgeCase(final int currentPos, final int candidateOffset){
         return BoardUtils.FIRST_COLUMN[currentPos] && (candidateOffset == -17 || candidateOffset == -10 ||
                 candidateOffset == 6 || candidateOffset == 15);
     }
 
     public static boolean isSecondColumnEdgeCase(final int currentPos, final int candidateOffset){
-        return BoardUtils.FIRST_COLUMN[currentPos] && (candidateOffset == -10 || candidateOffset == 6);
+        return BoardUtils.SECOND_COLUMN[currentPos] && (candidateOffset == -10 || candidateOffset == 6);
     }
 
     public static boolean isSeventhColumnEdgeCase(final int currentPos, final int candidateOffset){
-        return BoardUtils.FIRST_COLUMN[currentPos] && (candidateOffset == -6 || candidateOffset == 10);
+        return BoardUtils.SEVENTH_COLUMN[currentPos] && (candidateOffset == -6 || candidateOffset == 10);
     }
 
     public static boolean isEighthColumnEdgeCase(final int currentPos, final int candidateOffset){
-        return BoardUtils.FIRST_COLUMN[currentPos] && (candidateOffset == -15 || candidateOffset == -6 ||
+        return BoardUtils.EIGHTH_COLUMN[currentPos] && (candidateOffset == -15 || candidateOffset == -6 ||
                 candidateOffset == 10 || candidateOffset == 17);
     }
 }
