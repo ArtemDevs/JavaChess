@@ -11,15 +11,13 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import static com.chess.engine.board.Move.*;
-
 //removes warning for duplicate code found in Rook, Bishop, and Queen class
 @SuppressWarnings("Duplicates")
 
-public class Bishop extends Piece {
-    private final static int[] CANDIDATE_MOVE_VECTOR_CORDS = {-9, -7, 7, 9};
+public class Queen extends Piece{
+    private final static int[] CANDIDATE_MOVE_VECTOR_CORDS = {-9, -8, -7, -1, 1, 7, 8, 9};
 
-    Bishop(int piecePosition, Loyalty pieceLoyalty) {
+    Queen(int piecePosition, Loyalty pieceLoyalty) {
         super(piecePosition, pieceLoyalty);
     }
 
@@ -50,14 +48,14 @@ public class Bishop extends Piece {
 
                     //if the square is not occupied then we add a legal move to the list, and we can loop again
                     if(!candidateDestinationSquare.isSquareOccupied()){
-                        legalMoves.add(new MajorMove(board, this, candidateDestinationCord));
+                        legalMoves.add(new Move.MajorMove(board, this, candidateDestinationCord));
                     } else {
                         final Piece pieceAtDestinationCord = candidateDestinationSquare.getPiece();
                         final Loyalty pieceLoyalty = pieceAtDestinationCord.getPieceLoyalty();
 
                         //if the loyalty is the opposite, we can add an attack move to the legal moves
                         if(this.pieceLoyalty != pieceLoyalty){
-                            legalMoves.add(new AttackMove(board, this, candidateDestinationCord, pieceAtDestinationCord));
+                            legalMoves.add(new Move.AttackMove(board, this, candidateDestinationCord, pieceAtDestinationCord));
                         }
                         //if there is a friendly piece that is blocking the rest of the vector, we shouldn't consider any
                         //more of the vector as legal coordinate candidates
@@ -71,10 +69,11 @@ public class Bishop extends Piece {
     }
 
     private static boolean isFirstColumnEdgeCase(final int currentPos, final int candidateOffset){
-        return BoardUtils.FIRST_COLUMN[currentPos] && (candidateOffset == -9 || candidateOffset == 7);
+        return BoardUtils.FIRST_COLUMN[currentPos] && (candidateOffset == -9 || candidateOffset == 7 || candidateOffset == -1);
     }
 
     private static boolean isEighthColumnEdgeCase(final int currentPos, final int candidateOffset){
-        return BoardUtils.FIRST_COLUMN[currentPos] && (candidateOffset == -7 || candidateOffset == 9);
+        return BoardUtils.FIRST_COLUMN[currentPos] && (candidateOffset == -7 || candidateOffset == 9 || candidateOffset == 1);
     }
 }
+

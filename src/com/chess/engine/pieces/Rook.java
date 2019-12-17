@@ -11,6 +11,9 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
+//removes warning for duplicate code found in Rook, Bishop, and Queen class
+@SuppressWarnings("Duplicates")
+
 public class Rook extends Piece {
     private final static int[] CANDIDATE_MOVE_VECTOR_CORDS = {-8, -1, 1, 8};
 
