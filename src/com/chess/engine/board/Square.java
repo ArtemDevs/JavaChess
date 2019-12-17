@@ -34,7 +34,6 @@ public abstract class Square {
 
     public abstract Piece getPiece();
 
-
     //class emptySquare when a square is empty
     public static final class EmptySquare extends Square{
 
