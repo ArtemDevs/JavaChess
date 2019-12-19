@@ -69,7 +69,7 @@ public class Bishop extends Piece {
 
         return ImmutableList.copyOf(legalMoves);
     }
-
+    
     private static boolean isFirstColumnEdgeCase(final int currentPos, final int candidateOffset){
         return BoardUtils.FIRST_COLUMN[currentPos] && (candidateOffset == -9 || candidateOffset == 7);
     }
