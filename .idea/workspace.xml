@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54f1f714-7486-432d-9c89-f3ddf2a4dbb4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chess/engine/Loyalty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/Loyalty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/board/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/board/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/board/BoardUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/board/BoardUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/board/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/board/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/board/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/board/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Bishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chess/engine/pieces/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chess/engine/pieces/Rook.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,15 +25,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Board.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <element signature="e#105#106#0" expanded="true" />
-                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#103#104#0" expanded="true" />
+                <element signature="e#124#125#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -34,8 +42,12 @@
       <file leaf-file-name="BoardUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/BoardUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#862#863#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,8 +55,8 @@
       <file leaf-file-name="Move.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Move.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="425">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -52,41 +64,26 @@
       <file leaf-file-name="Knight.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Knight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="89" />
+            <state relative-caret-position="374">
+              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Queen.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Queen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#419#450#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pawn.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Pawn.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="587">
+              <caret line="46" column="72" lean-forward="true" selection-start-line="46" selection-start-column="72" selection-end-line="46" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#509#510#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,38 +92,54 @@
       <file leaf-file-name="Loyalty.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/chess/engine/Loyalty.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rook.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Rook.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="28" column="41" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="41" />
+            <state relative-caret-position="357">
+              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#419#450#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Piece.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Piece.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Piece.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            <state relative-caret-position="357">
+              <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
-                <element signature="e#652#653#0" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Queen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Queen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+              <folding>
+                <element signature="e#633#634#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bishop.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Bishop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -135,10 +148,22 @@
       <file leaf-file-name="Square.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Square.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="63" lean-forward="true" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+            <state relative-caret-position="459">
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#938#939#0" expanded="true" />
+                <element signature="e#1169#1170#0" expanded="true" />
+                <element signature="e#1194#1195#0" expanded="true" />
+                <element signature="e#1249#1250#0" expanded="true" />
+                <element signature="e#1275#1276#0" expanded="true" />
+                <element signature="e#1320#1321#0" expanded="true" />
+                <element signature="e#1345#1346#0" expanded="true" />
+                <element signature="e#1703#1704#0" expanded="true" />
+                <element signature="e#1728#1729#0" expanded="true" />
+                <element signature="e#1773#1774#0" expanded="true" />
+                <element signature="e#1812#1813#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,17 +194,17 @@
         <option value="$PROJECT_DIR$/src/EmptyTile.java" />
         <option value="$PROJECT_DIR$/src/Square.java" />
         <option value="$PROJECT_DIR$/src/Piece.java" />
-        <option value="$PROJECT_DIR$/src/com/chess/engine/board/Board.java" />
-        <option value="$PROJECT_DIR$/src/com/chess/engine/board/BoardUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/chess/engine/Loyalty.java" />
+        <option value="$PROJECT_DIR$/src/com/chess/engine/pieces/Queen.java" />
+        <option value="$PROJECT_DIR$/src/com/chess/engine/pieces/Rook.java" />
+        <option value="$PROJECT_DIR$/src/com/chess/engine/pieces/Piece.java" />
+        <option value="$PROJECT_DIR$/src/com/chess/engine/pieces/Knight.java" />
+        <option value="$PROJECT_DIR$/src/com/chess/engine/pieces/Bishop.java" />
         <option value="$PROJECT_DIR$/src/com/chess/engine/board/Square.java" />
         <option value="$PROJECT_DIR$/src/com/chess/engine/board/Move.java" />
-        <option value="$PROJECT_DIR$/src/com/chess/engine/pieces/Knight.java" />
-        <option value="$PROJECT_DIR$/src/com/chess/engine/pieces/Rook.java" />
-        <option value="$PROJECT_DIR$/src/com/chess/engine/pieces/Bishop.java" />
-        <option value="$PROJECT_DIR$/src/com/chess/engine/pieces/Queen.java" />
-        <option value="$PROJECT_DIR$/src/com/chess/engine/Loyalty.java" />
+        <option value="$PROJECT_DIR$/src/com/chess/engine/board/BoardUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/chess/engine/board/Board.java" />
         <option value="$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java" />
-        <option value="$PROJECT_DIR$/src/com/chess/engine/pieces/Piece.java" />
       </list>
     </option>
   </component>
@@ -202,6 +227,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,7 +286,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -272,6 +297,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
@@ -344,11 +370,18 @@
       <option name="presentableId" value="Default" />
       <updated>1576472899531</updated>
       <workItem from="1576472904708" duration="23139000" />
+      <workItem from="1576906626122" duration="2294000" />
+      <workItem from="1577156108125" duration="759000" />
+      <workItem from="1577156898397" duration="69000" />
+      <workItem from="1577156981908" duration="59000" />
+      <workItem from="1577157055632" duration="19000" />
+      <workItem from="1577157089546" duration="1068000" />
+      <workItem from="1577158172872" duration="1045000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23139000" />
+    <option name="totallyTimeSpent" value="28452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -367,20 +400,21 @@
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.11875" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.11875" />
+      <window_info anchor="bottom" id="Statistic" weight="0.32943678" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32943678" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32943678" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,84 +424,366 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/EmptyTile.java">
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/BoardUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="153">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Move.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Knight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="89" />
           <folding>
-            <element signature="e#80#81#0" expanded="true" />
-            <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Bishop.java">
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/Loyalty.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="71" column="4" lean-forward="true" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+        <state relative-caret-position="357">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#472#503#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Rook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="289">
           <caret line="28" column="41" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#419#450#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#427#458#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Knight.java">
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Piece.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="89" />
+        <state relative-caret-position="357">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Queen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#419#450#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Square.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="63" lean-forward="true" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+        <state relative-caret-position="221">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#1169#1170#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#1320#1321#0" expanded="true" />
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1703#1704#0" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Bishop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/BoardUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Move.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="578">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Knight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/Loyalty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Rook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#427#458#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Piece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#1169#1170#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#1320#1321#0" expanded="true" />
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1703#1704#0" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Bishop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/BoardUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Move.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Knight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/Loyalty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Rook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#427#458#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Piece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#1169#1170#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#1320#1321#0" expanded="true" />
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1703#1704#0" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Bishop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="71" column="4" lean-forward="true" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -478,13 +794,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Board.java">
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Move.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Knight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="89" />
           <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#130#131#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Queen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -496,28 +839,188 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java">
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Rook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="289">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#427#458#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="63" lean-forward="true" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#1169#1170#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#1320#1321#0" expanded="true" />
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1703#1704#0" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Piece.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="323">
           <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmptyTile.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Rook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="52" column="87" lean-forward="true" selection-start-line="52" selection-start-column="87" selection-end-line="52" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#427#458#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Queen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+          <folding>
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Knight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Bishop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#1169#1170#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#1320#1321#0" expanded="true" />
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1703#1704#0" expanded="true" />
+            <element signature="e#1728#1729#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#1812#1813#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#103#104#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/BoardUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/board/Move.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/Loyalty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Piece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chess/engine/pieces/Pawn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="46" column="72" lean-forward="true" selection-start-line="46" selection-start-column="72" selection-end-line="46" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
           </folding>
         </state>
       </provider>
