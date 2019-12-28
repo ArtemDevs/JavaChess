@@ -16,7 +16,7 @@ import java.util.List;
 public class Queen extends Piece {
   private static final int[] CANDIDATE_MOVE_VECTOR_CORDS = {-9, -8, -7, -1, 1, 7, 8, 9};
 
-  Queen(int piecePosition, Loyalty pieceLoyalty) {
+  public Queen(int piecePosition, Loyalty pieceLoyalty) {
     super(piecePosition, pieceLoyalty);
   }
 
@@ -69,6 +69,11 @@ public class Queen extends Piece {
     }
 
     return ImmutableList.copyOf(legalMoves);
+  }
+
+  @Override
+  public String toString() {
+    return PieceType.QUEEN.toString();
   }
 
   private static boolean isFirstColumnEdgeCase(final int currentPos, final int candidateOffset) {

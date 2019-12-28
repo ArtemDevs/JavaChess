@@ -16,7 +16,7 @@ import java.util.List;
 public class Rook extends Piece {
   private static final int[] CANDIDATE_MOVE_VECTOR_CORDS = {-8, -1, 1, 8};
 
-  Rook(int piecePosition, Loyalty pieceLoyalty) {
+  public Rook(int piecePosition, Loyalty pieceLoyalty) {
     super(piecePosition, pieceLoyalty);
   }
 
@@ -69,6 +69,11 @@ public class Rook extends Piece {
     }
 
     return ImmutableList.copyOf(legalMoves);
+  }
+
+  @Override
+  public String toString(){
+    return PieceType.ROOK.toString();
   }
 
   private static boolean isFirstColumnEdgeCase(final int currentPos, final int candidateOffset) {

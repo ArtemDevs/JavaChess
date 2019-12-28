@@ -15,7 +15,7 @@ import static com.chess.engine.board.Move.*;
 public class Pawn extends Piece {
   private static final int[] CANDIDATE_MOVE_CORD = {8, 16, 7, 9};
 
-  Pawn(final int piecePosition, final Loyalty pieceLoyalty) {
+  public Pawn(final int piecePosition, final Loyalty pieceLoyalty) {
     super(piecePosition, pieceLoyalty);
   }
 
@@ -84,6 +84,11 @@ public class Pawn extends Piece {
     }
 
     return ImmutableList.copyOf(legalMoves);
+  }
+
+  @Override
+  public String toString() {
+    return PieceType.PAWN.toString();
   }
 
   private static boolean isFirstColumnEdgeCase(

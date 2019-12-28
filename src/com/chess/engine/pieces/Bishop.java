@@ -18,7 +18,7 @@ import static com.chess.engine.board.Move.*;
 public class Bishop extends Piece {
   private static final int[] CANDIDATE_MOVE_VECTOR_CORDS = {-9, -7, 7, 9};
 
-  Bishop(int piecePosition, Loyalty pieceLoyalty) {
+  public Bishop(final int piecePosition, final Loyalty pieceLoyalty) {
     super(piecePosition, pieceLoyalty);
   }
 
@@ -70,6 +70,11 @@ public class Bishop extends Piece {
     }
 
     return ImmutableList.copyOf(legalMoves);
+  }
+
+  @Override
+  public String toString() {
+    return PieceType.BISHOP.toString();
   }
 
   private static boolean isFirstColumnEdgeCase(final int currentPos, final int candidateOffset) {

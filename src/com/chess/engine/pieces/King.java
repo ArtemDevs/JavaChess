@@ -15,7 +15,7 @@ public class King extends Piece {
 
   private static final int[] CANDIDATE_MOVE_CORD = {-9, -8, -7, -1, 1, 7, 8, 9};
 
-  King(int piecePosition, Loyalty pieceLoyalty) {
+  public King(final int piecePosition, final Loyalty pieceLoyalty) {
     super(piecePosition, pieceLoyalty);
   }
 
@@ -50,6 +50,11 @@ public class King extends Piece {
       }
     }
     return ImmutableList.copyOf(legalMoves);
+  }
+
+  @Override
+  public String toString() {
+    return PieceType.KING.toString();
   }
 
   // Edge cases for the Knight, for when near the board edge and the offset will be incorrect

@@ -45,6 +45,12 @@ public abstract class Square {
     }
 
     @Override
+    public String toString() {
+      // print the empty spaces on the board as a simple hyphen
+      return "-";
+    }
+
+    @Override
     public boolean isSquareOccupied() {
       return false;
     }
@@ -63,6 +69,14 @@ public abstract class Square {
     private OccupiedSquare(int squareCord, final Piece pieceOnSquare) {
       super(squareCord);
       this.pieceOnSquare = pieceOnSquare;
+    }
+
+    @Override
+    public String toString() {
+      // print the pieces in a different case if they are black for visual clarity
+      return getPiece().getPieceLoyalty().isBlack()
+          ? getPiece().toString().toLowerCase()
+          : getPiece().toString();
     }
 
     @Override
